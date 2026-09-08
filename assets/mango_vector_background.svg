@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2384 3370" width="2384" height="3370">
+  <defs>
+    <!-- Master Gradients -->
+    <linearGradient id="baseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffbeb"/>
+      <stop offset="30%" stop-color="#fef3c7"/>
+      <stop offset="70%" stop-color="#ecfdf5"/>
+      <stop offset="100%" stop-color="#f0fdfa"/>
+    </linearGradient>
+
+    <linearGradient id="mangoWave1" x1="0%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#fbbf24" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0.15"/>
+    </linearGradient>
+
+    <linearGradient id="mangoWave2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.30"/>
+      <stop offset="40%" stop-color="#06b6d4" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0.25"/>
+    </linearGradient>
+
+    <linearGradient id="dripGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ea580c" stop-opacity="0.40"/>
+      <stop offset="50%" stop-color="#f59e0b" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.20"/>
+    </linearGradient>
+
+    <linearGradient id="dripGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#059669" stop-opacity="0.35"/>
+      <stop offset="70%" stop-color="#0284c7" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#ea580c" stop-opacity="0.20"/>
+    </linearGradient>
+
+    <radialGradient id="glowNode1" cx="15%" cy="12%" r="35%">
+      <stop offset="0%" stop-color="#fb923c" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#fbbf24" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowNode2" cx="85%" cy="15%" r="40%">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#06b6d4" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowNode3" cx="50%" cy="92%" r="45%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.30"/>
+      <stop offset="40%" stop-color="#10b981" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowNode4" cx="10%" cy="85%" r="35%">
+      <stop offset="0%" stop-color="#0e7490" stop-opacity="0.25"/>
+      <stop offset="60%" stop-color="#047857" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowNode5" cx="90%" cy="80%" r="35%">
+      <stop offset="0%" stop-color="#ea580c" stop-opacity="0.28"/>
+      <stop offset="60%" stop-color="#f59e0b" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background Base Canvas -->
+  <rect width="2384" height="3370" fill="url(#baseGrad)"/>
+
+  <!-- Glowing Ambient Radial Energy Fields -->
+  <rect width="2384" height="3370" fill="url(#glowNode1)"/>
+  <rect width="2384" height="3370" fill="url(#glowNode2)"/>
+  <rect width="2384" height="3370" fill="url(#glowNode3)"/>
+  <rect width="2384" height="3370" fill="url(#glowNode4)"/>
+  <rect width="2384" height="3370" fill="url(#glowNode5)"/>
+
+  <!-- Organic Fluid Dynamics Waves & Swirls -->
+  <!-- Top Left Mango Splash -->
+  <path d="M -100 -100 C 400 100, 700 350, 600 700 C 500 1050, 150 1100, -100 1200 Z" fill="url(#mangoWave1)"/>
+  
+  <!-- Top Right Emerald Leaf Swirl -->
+  <path d="M 2484 -100 C 1900 150, 1600 400, 1750 800 C 1900 1200, 2200 1300, 2484 1400 Z" fill="url(#mangoWave2)"/>
+
+  <!-- Flowing Central Fluid Curves & Drips -->
+  <path d="M -100 600 C 500 750, 800 1100, 700 1600 C 600 2100, 100 2300, -100 2600 Z" fill="url(#dripGrad1)"/>
+  <path d="M 2484 800 C 1800 950, 1500 1400, 1650 1900 C 1800 2400, 2300 2600, 2484 2900 Z" fill="url(#dripGrad2)"/>
+
+  <!-- Dynamic Bottom Fluid Swirls -->
+  <path d="M -100 2400 C 600 2300, 1000 2700, 1100 3470 L -100 3470 Z" fill="url(#mangoWave2)"/>
+  <path d="M 2484 2300 C 1800 2200, 1300 2600, 1200 3470 L 2484 3470 Z" fill="url(#mangoWave1)"/>
+
+  <!-- Elegant Curvature Lines -->
+  <path d="M 0 450 Q 800 700, 1200 1400 T 2384 1800" fill="none" stroke="#fbbf24" stroke-width="4" stroke-opacity="0.2"/>
+  <path d="M 0 850 Q 900 1100, 1100 1900 T 2384 2300" fill="none" stroke="#34d399" stroke-width="3.5" stroke-opacity="0.2"/>
+  <path d="M 0 1650 Q 700 1900, 1300 2300 T 2384 2800" fill="none" stroke="#06b6d4" stroke-width="3" stroke-opacity="0.15"/>
+  <path d="M 0 2250 Q 900 2400, 1200 2800 T 2384 3100" fill="none" stroke="#ea580c" stroke-width="4" stroke-opacity="0.18"/>
+
+</svg>
